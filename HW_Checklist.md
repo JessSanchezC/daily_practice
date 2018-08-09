@@ -84,24 +84,20 @@ D4 | NLTK Chapter 3 Ex. 6 | Describe the class of strings matched by the followi
 D4 | NLTK Chapter 3 Ex. 7 | Write regular expressions to match the following classes of strings: A single determiner (assume that a, an, and the are the only determiners). An arithmetic expression using integers, addition, and multiplication, such as 2x3+8. | Required 
 D4 | NLTK Chapter 3 Ex. 8 | ☼ Write a utility function that takes a URL as its argument, and returns the contents of the URL, with all HTML markup removed. Use from urllib import request and then request.urlopen('http://nltk.org/').read().decode('utf8') to access the contents of the URL.  | Required 
 D4 | NLTK Chapter 3 Ex. 9 | ☼ Save some text into a file corpus.txt. Define a function load(f) that reads from the file named in its sole argument, and returns a string containing the text of the file. Use nltk.regexp_tokenize() to create a tokenizer that tokenizes the various kinds of punctuation in this text. Use one multi-line regular expression, with inline comments, using the verbose flag (?x). Use nltk.regexp_tokenize() to create a tokenizer that tokenizes the following kinds of expression: monetary amounts; dates; names of people and organizations. | Required 
-D4 | NLTK Chapter 3 Ex. 10 | ☼ Rewrite the following loop as a list comprehension:(see the code in http://www.nltk.org/book/ch03.html excrcise 10) | Required 
+D4 | NLTK Chapter 3 Ex. 10 | ☼ Rewrite the following loop as a list comprehension: (see the code in http://www.nltk.org/book/ch03.html excrcise 10) | Required 
 
 # Week 4
 
 Day | Assignment | Description | Required/Optional
 :------------: | ------------- | ------------- | :-------------:
- | | | 
- | | | 
- | | | 
- | | | 
- | | | 
- | | | 
- | | | 
- | | |
- | | | 
- | | | 
- | | | 
- | | |
+D1 | Prediction | calculate the prediction for 100% pos, and 100% neg review | Required
+D1 | Sentiment Analyzer  for "Apps for Android" | repeat this same process for "Apps for Android" dataset | Required
+D1 | Improve the Sentiment Analyzer | build a better sentiment analyzer and comment both your code and your data exploration | Optional Advanced
+D2 | Change treshold | Change the treshold from 0.5 to 0.2, and rerun the code. Give a commentary in plain English about how that changed precision and recall. What does that mean? What is now included that wasn't before? What part of it is good? What is bad from our Task perspective. Remember: our task was to identify Dissatisfied reviews. https://en.wikipedia.org/wiki/Precision_and_recall | Required
+D2 |Add features. |  Explain which features you chose, implement them, and write a commentary on your results. Feel welcome to use NLTK's built-in sentiment analyzer or any other research that you can find and understand | Advanced
+D3 | len_features(dataset) | Add two features: (1) length of review (in thousands of character) - truncate at 2,500 (2) percentage of exclamation marks (in %) | Required
+D3 | Refactor the code above | "Be lazy. Not just lazy but proactively, agressively lazy." Remove duplication. create a single function that takes in data and spits out all success metrics across all of your algos. | Required
+
 
 
 
