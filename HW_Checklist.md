@@ -3,7 +3,7 @@
 
 ## Submission Guidelines
 
-Create a single file called `soc-wk1-cert-firstname-lastname.py` and include the whole week's exercises in them. Everything from the 'Things to Try' sections. Optional exercises are, well, optional.
+Create a single file called `soc-wk1-cert-firstname-lastname.py` and include the whole week's exercises in them. Everything from the 'Things to Try' sections. Optional exercises are, well, optional. In case of multiple files, create a single zip called `soc-wk5-cert-firstname-lastname.zip` and include all your files.
 
 **DIY**: send PR to toolkitten repo, under https://github.com/1millionwomentotech/toolkitten/tree/master/summer-of-code/week-01/wk1-homework-submission
 
@@ -11,7 +11,7 @@ Create a single file called `soc-wk1-cert-firstname-lastname.py` and include the
 
 
 
-## Week 1
+## Week 1 Intro to Python.
 
 Day | Assignment | Description | Required/Optional
 :------------: | ------------- | ------------- | :-------------:
@@ -32,7 +32,7 @@ D4 | Moo | Write a function that prints out "moo" n times. | Required
 D4 | Old-school Roman numerals.| Write a method that when passed an integer between 1 and 3000 (or so) returns a string containing the proper old-school Roman numeral. In other words, old_roman_numeral 4 should return 'IIII'. Make sure to test your method on a bunch of different numbers. *Hint: Use the integer division and modulus methods.* For reference, these are the values of the letters used: I = 1 V = 5 X = 10 L = 50 C = 100 D = 500 M = 1000 | Required
 D4 | “Modern” Roman numerals. | Eventually, someone thought it would be terribly clever if putting a smaller number before a larger one meant you had to subtract the smaller one. As a result of this development, you must now suffer. Rewrite your previous method to return the new-style Roman numerals so when someone calls roman_numeral 4, it should return 'IV', 90 should be 'XC' etc. | Required
  
-# Week 2
+# Week 2 Advanced Python
 
 Day | Assignment | Description | Required/Optional
 :------------: | ------------- | ------------- | :-------------:
@@ -64,9 +64,7 @@ D4 | install pip, NLTK, Anaconda and Jupyter Notebook | Install-fest: Check pip 
 D4 | Exercise #5 from NLTK | Exercise #5 from http://www.nltk.org/book/ch01.html ☼ Compare the lexical diversity scores for humor and romance fiction in 1.1. Which genre is more lexically diverse?| Required 
 D4 | Subclass Excercise | http://jfine-python-classes.readthedocs.io/en/latest/subclass-int.html  | Optional Advanced
 
-
-
-# Week 3
+# Week 3 Natural Language Processing with Python
 
 Day | Assignment | Description | Required/Optional
 :------------: | ------------- | ------------- | :-------------:
@@ -88,7 +86,7 @@ D4 | NLTK Chapter 3 Ex. 8 | ☼ Write a utility function that takes a URL as its
 D4 | NLTK Chapter 3 Ex. 9 | ☼ Save some text into a file corpus.txt. Define a function load(f) that reads from the file named in its sole argument, and returns a string containing the text of the file. Use nltk.regexp_tokenize() to create a tokenizer that tokenizes the various kinds of punctuation in this text. Use one multi-line regular expression, with inline comments, using the verbose flag (?x). Use nltk.regexp_tokenize() to create a tokenizer that tokenizes the following kinds of expression: monetary amounts; dates; names of people and organizations. | Required 
 D4 | NLTK Chapter 3 Ex. 10 | ☼ Rewrite the following loop as a list comprehension: (see the code in http://www.nltk.org/book/ch03.html excrcise 10) | Required 
 
-# Week 4
+# Week 4 Artificial Intelligence with Python & Tensorflow
 
 Day | Assignment | Description | Required/Optional
 :------------: | ------------- | ------------- | :-------------:
@@ -100,6 +98,14 @@ D2 |Add features. |  Explain which features you chose, implement them, and write
 D3 | len_features(dataset) | Add two features: (1) length of review (in thousands of character) - truncate at 2,500 (2) percentage of exclamation marks (in %) | Required
 D3 | Refactor the code above | "Be lazy. Not just lazy but proactively, agressively lazy." Remove duplication. create a single function that takes in data and spits out all success metrics across all of your algos. | Required
 
+# Week 5 Introductory JavaScript
 
+Day | Assignment | Description | Required/Optional
+:------------: | ------------- | ------------- | :-------------:
+D1 | Basic Exercises |Write a program that tells you the following: Hours in a year. How many hours are in a year? Minutes in a decade. How many minutes are in a decade? Your age in seconds. How many seconds old are you? (I'm not going to check your answer, so be as accurate—or not—as you want.) Cristina Tarantino: 32 yesterday! How many milliseconds old is she hahaha? Calculate @Cristina Tarantino's age in milliseconds. | Required
+D2 | Tougher questions | How many days does it take for a 32-bit system to timeout, if it has a bug with integer overflow?
+How about a 64-bit system?
+Calculate your age accurately based on your birthday (maybe use time of day e.g. 8:23am if you know it, use 12:00 noon midday) - you will need JavaScript DateTime functionality. | Required
+ | | |
 
 
