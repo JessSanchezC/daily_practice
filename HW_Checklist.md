@@ -43,6 +43,8 @@ D2 | Numbers to Letters the chr() method | There is something small that needs f
 D2 | Print char | Make a function that prints A-Z and a-z | Required
 D2 | Cypher | Make a function that asks the user for a message, and turns it into a list of numbers. (It's a cypher ;)) | Required
 D2 | ceaser cypher | Write a function that does a ceaser cypher (Google), ask the user a number, and shift their message by that number. | Required
+D2 | Print list of list | Write a function that prints out all elements of the above board (world in Civilization III), starting from the first element of the first line, till the end. Each line should be read from beginning to end.  | Required 
+D2 | Print list of list on reverse | Now write a function that prints out all elements in reverse. | Required 
 D2 | Continent Counter Bug | There is one small bug in the continent counter above. Can you find it and fix it? (Hint: change the world so that the continent borders the edge) (go to day2.md to see the code)  | Required
 D2 | Continent Counter n x n | Write a function that generates an n x n sized board with either land or water chosen randomly. | Required
 D2 | Continent Counter 100 x 100 | Run your continent counter for a 20 x 20 board. How long does it take to run? (If it runs quickly, try 30 x 30 ... 100 x 100 just be aware you might end up in a VERY LOOOONG WAIT) - make sure you know how to break a running program as it may take a long time to complete and you might not have time to wait for it ;) | Optional, Advanced
