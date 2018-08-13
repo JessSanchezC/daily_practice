@@ -103,9 +103,7 @@ D3 | Refactor the code above | "Be lazy. Not just lazy but proactively, agressiv
 Day | Assignment | Description | Required/Optional
 :------------: | ------------- | ------------- | :-------------:
 D1 | Basic Exercises |Write a program that tells you the following: Hours in a year. How many hours are in a year? Minutes in a decade. How many minutes are in a decade? Your age in seconds. How many seconds old are you? (I'm not going to check your answer, so be as accurate—or not—as you want.) Cristina Tarantino: 32 yesterday! How many milliseconds old is she hahaha? Calculate @Cristina Tarantino's age in milliseconds. | Required
-D2 | Tougher questions | How many days does it take for a 32-bit system to timeout, if it has a bug with integer overflow?
-How about a 64-bit system?
-Calculate your age accurately based on your birthday (maybe use time of day e.g. 8:23am if you know it, use 12:00 noon midday) - you will need JavaScript DateTime functionality. | Required
+D2 | Tougher questions | How many days does it take for a 32-bit system to timeout, if it has a bug with integer overflow? How about a 64-bit system? Calculate your age accurately based on your birthday (maybe use time of day e.g. 8:23am if you know it, use 12:00 noon midday) - you will need JavaScript DateTime functionality. | Required
  | | |
 
 
