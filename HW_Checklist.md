@@ -142,4 +142,57 @@ D4 | Implement Promise | Implement promise examples from https://github.com/adva
 D4 | You Don't Know JS Chapter 4 | https://github.com/getify/You-Dont-Know-JS/blob/31e1d4ff600d88cc2ce243903ab8a3a9d15cce15/es6%20%26%20beyond/ch4.md | Required
 D4 | Promise drill exercise | Please submit an interesting exercise to drill Promises. | Required
 
+# Week 7 Self Care
+
+No Assignments
+
+# Week 8 Mobile Prototyping (UI/UX) in InvisionApp
+
+Day | Assignment | Description | Required/Optional
+:------------: | ------------- | ------------- | :-------------:
+D3 | Prototype for Certification | Minimum requirements: Minimum 5 screens, at least 1 interaction per screen can be run on mobile device interactively both Android and iOS = DEMOABLE. README file that describes the purpose of the app, business/personal problem you are solving and a list of 3 existing apps and their shortcomings | Required
+D3 | | Optional: do it in a team, more screen, more interactions, branching, navigation | Optional
+
+# Week 9 Blockchain
+
+Day | Assignment | Description | Required/Optional
+:------------: | ------------- | ------------- | :-------------:
+D2 | Install Solidity | Choose your own sources, here are some ideas to get you started: 	https://solidity.readthedocs.io/en/latest/installing-solidity.html   https://walkingtree.tech/setting-ethereum-development-environment-macos/   	https://medium.com/edgefund/ethereum-development-on-windows-part-1-da260f6a6c06   https://medium.com/@wslyvh/get-started-with-ethereum-solidity-on-windows-1672e9953a1 | Required
+D2 | Read THE Ethereum Whitepaper | https://github.com/ethereum/wiki/wiki/White-Paper | Required
+D2 | Optional homework | Finish the voting example (in Remix is fine, Remix is the browser based IDE) and suggest improvements: Currently, many transactions are needed to assign the rights to vote to all participants. Can you think of a better way? 	Add tests to the voting example | Optional
+D3 | Read review paper | http://www.jbonneau.com/doc/BMCNKF15-IEEESP-bitcoin.pdf | Required
+D3 | MetaMask | Install MetaMask   https://chrome.google.com/webstore/detail/metamask/ | Required
+D4 | Certification Requirements | Task: Create a smart contract. Issue your own currency and send a transaction between two addresses. Submission: Code and 	2 min unlisted YouTube video as demo *Everything else is optional, and you may choose your language. You may add any number of extra features, bells and whistles as you like.* | Required
+	
+# Week 10 Virtual Reality
+
+Day | Assignment | Description | Required/Optional
+:------------: | ------------- | ------------- | :-------------:
+D1 | Install all the Tools | Get a simple app running on your device or emulator | Required
+D1 | Create design of 5 figures minimum in tinkerCAD | At least 2 of them to be a character with legs and arms. Explore all the available basic shapes and challange your creativity | Required
+D1 | Import the models into your scene | Place them around the camera object | Required
+D1 | Explore | Explore resources in the asset store | Required
+D2 | |	-In your project you should have 5 objects. Implement a several cinematics examples on them, and customize them so that each one would have a different bevhaviour (one would rotate around a specific axis, other would translate, or scale in some direction. | Required
+D2 | |	-We can also store and access the amount of distance covered by a translation since the beginning of the app, create some thresholds so that after your model has moved Xm it starts returning to is original position. | Required
+D2 | |	-optional : Explore the Unity documentation function https://docs.unity3d.com/ScriptReference/Quaternion.FromToRotation.html, and create a unity script that makes all objects look in the direction of the camera at all time. | Required
+D3 | |	 -Create a canvas with at least one panel, one image, and two buttons, for each of your 3D objects. The panel should include a name for your model and the authors name/Allias :) after triggering the first button the text should change to a background story of your model (description, inspiration,etc). The second button should change to say something like "Please enjoy the next art-work" | Required
+D3 | |	 - Create another button in your canvas that will trigger your model to be affected by gravity, rotate and bounce 2 times , instead of these actions being triggerd by the users view. (Disable previous script or change the raycast one) Include restrictions, please don't let them fall. | Required
+D4 | | - Create an animation for each one of your models that will only start when the user gazes at a "ANimate" Button inside the panel that you already created. For the character models, each body-part must have a different movement. :) Be creative and have fun | Required
+D4 | | - Create animations and an animator controller for the camera object and trigger each animation to move around our 3D models musseum and interact with the panels when the Maximum reticle distance is not big enought to reach them as they are far away. | Required
+
+
+# Week 11 Augmented Reality
+
+Day | Assignment | Description | Required/Optional
+:------------: | ------------- | ------------- | :-------------:
+
+# Week 12 GitHub - A gentle introduction to collaboration using GitHub
+
+Day | Assignment | Description | Required/Optional
+:------------: | ------------- | ------------- | :-------------:
+
+# Week 13 Mobile App Development with React.JS
+
+Day | Assignment | Description | Required/Optional
+:------------: | ------------- | ------------- | :-------------:
 
