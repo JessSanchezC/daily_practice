@@ -185,14 +185,32 @@ D4 | | - Create animations and an animator controller for the camera object and 
 
 Day | Assignment | Description | Required/Optional
 :------------: | ------------- | ------------- | :-------------:
+D1 | | - Create a simple AR app with at least one Image target, one Cilindrical target and one Multitarget object. Attach some 3D content to them so that it is clear that the marker got recognized - Submit the screenshot of the unity play mode or a picture of your phone. | Required
+D1 | | - Optional: Try working with Vumarks instead of image targets (you need Adobe illustrator for this) Official documentation : https://library.vuforia.com/articles/Solution/Working-with-VuMarks.html | Required
+D2 | |	- Create tap interaction with your models (trigger an animation, sound or any other scriptable behaviour). | Required
+D2 | |	- Create a second scene with several UI elements and create the transition from one to the other. | Required
+D2 | |	- Change the parent from objects that are attached to your target in movement to other markers on your scene. | Required
+D3 | | 	-Create an app that will recognize one cloud target,after you are happy with your app please add at least 5 other targets to your databe (inside the Vuforia developer portal). Please also include metadata | Required
+
 
 # Week 12 GitHub - A gentle introduction to collaboration using GitHub
 
 Day | Assignment | Description | Required/Optional
 :------------: | ------------- | ------------- | :-------------:
+D1 | | - Fork the repo and send your own quote in a pull request: https://github.com/1millionwomentotech/github-slideshow  | Required
+D1 | | - Practice GitHub Flavoured Markdown: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet  | Required
+D1 | | - Find one open source project on GitHub that excites you and be ready to share the URL to their repo tomorrow: DIYers are always welcome to come to the daily teaser at 9:00am BST and interact with myself and others. Bring your links and see you there!  | Required
+D1 | | - If you are more advanced, and only then, you can read up on the git branching model I briefly showed today: 	https://nvie.com/posts/a-successful-git-branching-model/ | Optional
+D1 | | - Look into how to make GitHub slideshows, GitHub Pages and Jekyll. Here is one interesting service to get you started: https://gitpitch.com/surveys | Optional
+D2 | | - Add text and an image to https://github.com/1millionwomentotech/toolkitten/blob/master/howto/register.md | Required
+D2 | | - Write a separate HOWTO document related to 1mwtt in an .md file with images | Required
+D2 | | - Send a pull request to toolkitten  | Required
 
 # Week 13 Mobile App Development with React.JS
 
 Day | Assignment | Description | Required/Optional
 :------------: | ------------- | ------------- | :-------------:
+D1 | | Understand props and states from: https://facebook.github.io/react-native/docs/native-components-android |Required
+D1 | | - Set up your own expo app with 1 screen | Required
+D1 | | - Try to add a new component: a button to your screen |Required
 
