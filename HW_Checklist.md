@@ -1,4 +1,4 @@
-# Homework Checklist
+# Summer of Code 2018 Homework Checklist
 
 
 ## Submission Guidelines
