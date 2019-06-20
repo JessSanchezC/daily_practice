@@ -1,0 +1,26 @@
+<!--Converting Strings to Numbers -->
+<DOCUMENT html>
+
+<html lang = "en">
+<header>
+	<title>Chapter 2, Example 7</title>
+</header>
+
+<body>
+	<script>
+		var myString = "56.02 degrees centigrade";
+		// var myString = "I'm a name not a number"
+		var myInt; 
+		var myFloat;
+
+		document.write("\"" + myString + "\" is " + parseInt(myString, 10) + " as an integer" + "<br/>");
+		
+		myInt = parseInt(myString,10);
+		document.write("\"" + myString + "\" when converted to a integer equals " + myInt + "<br/>");
+		
+		myFloat = parseFloat(myString);		
+		document.write("\"" + myString + "\" when converted to a floating number equals " + myFloat);
+	</script>
+</body>
+</html>
+</DOCUMENT>
