@@ -17,3 +17,4 @@ Fifth Edition. Jeremy McPeak and Paul Wilton
 - [x] **[ch3ex1](Chapter3/ch3ex1.html)** The if Statement
 - [x] **[ch3ex2](Chapter3/ch3ex2.html)** Multiple Conditions
 - [x] **[ch3ex3](Chapter3/ch3ex3.html)** Using the switch Statement
+- [x] **[ch3ex4](Chapter3/ch3ex4.html)** Converting a Series of Fahrenheit Values
